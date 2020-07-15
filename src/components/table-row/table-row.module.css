@@ -1,0 +1,55 @@
+
+.data_name_im{
+  display: flex;
+  
+  width: 20.7%;
+  
+  align-items: center;
+}
+
+
+  .background_image {
+    width: 60%;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 5px;
+  }
+
+
+.data_body{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    font-size: 1.1em ;
+    font-weight: 600;
+    margin-top: 8px;
+    
+}
+
+.data_body:hover{
+    border-bottom: red 2px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.data_name{
+    display: flex;
+    
+    width: 21%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#sp p {
+  cursor: pointer;
+  
+  
+}
+
+.da{
+  padding-left: 10px;
+  padding-right:10px ;
+  cursor: pointer;
+}

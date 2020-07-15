@@ -1,0 +1,19 @@
+
+.collection-preview {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  
+  h1{
+    color: red;
+  }
+  .title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .preview {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.container span{
+    padding-top: 6px;
+    position: absolute;
+    font-size: 1.2rem;
+}
+.bag{
+    width: 40px;
+    
+}

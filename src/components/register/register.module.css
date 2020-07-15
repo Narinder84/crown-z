@@ -1,0 +1,35 @@
+
+.Contaner{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: red solid 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Contaner p {
+    color:  #FF8C00;
+    font-weight: 700;
+    font-size: 1.4em;
+    
+}
+.from_container{
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.text_field{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.btn{
+    display: flex;
+    
+    justify-content: space-evenly;
+  }
