@@ -6,7 +6,7 @@ import {createStructuredSelector} from 'reselect'
 import {selectCollections} from '../../redux/shop/shop.reselector.js'
 import CollectionPreview from '../collection-preview/collection-preview';
 
-import styles from './collectionsOverview.modules.css';
+
 
 
 

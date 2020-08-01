@@ -9,7 +9,7 @@ import CartDropDown from '../cart-dropdown/cart-dropdown.js'
 
 const Header = (props) =>  {
 const {isHidden} = props
-console.log(props);
+
 return (
   <div className={style.container} >
     <div className={style.header}>
@@ -32,7 +32,7 @@ return (
       <Link className={style.options} to='/cart_table'>
         Check Out
       </Link>
-      <Link className={style.options} >
+      <Link className={style.options} to='' >
         <CartIcon/>
         
       </Link>

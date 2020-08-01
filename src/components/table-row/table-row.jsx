@@ -35,7 +35,7 @@ const TableRow =({item,reduce,remove,add})=> {
                    <span id={styles.sp} >{price*quantity}</span>
                </div>
                <div className={styles.data_name} >
-                   <span  id={styles.sp} ><p onClick={()=>remove(item)} >&#10060;</p></span>
+                   <span role="img" aria-label="del"id={styles.sp} onClick={()=>remove(item)} >&#10060;</span>
                </div>
                </div>
             </div>
