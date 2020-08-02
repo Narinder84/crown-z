@@ -55,8 +55,7 @@ class CartTable  extends React.Component {
                <div className={styles.footer_name} >
                    <span className={styles.bt} >
                     <div ><CustomeButton isSmall  onClick={()=>remove()} >Clear</CustomeButton></div>
-                    <div className={styles.bt_b} ><CustomeButton isSmall >Pay </CustomeButton></div>
-                   </span>
+                    </span>
                </div>
                </div>
             </div>
