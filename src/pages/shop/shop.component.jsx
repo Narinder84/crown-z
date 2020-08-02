@@ -9,7 +9,7 @@ const ShopPage = ({match})=> {
     
     return (
       <Switch>
-        <Scroll height = {`650px`} >
+        <Scroll height = {`600px`} >
         <Route exact path={`${match.path}`} component={CollectionsOverview} />
         <Route exact path={`${match.path}/:collectionId`} component={Collections} />
         </Scroll>
