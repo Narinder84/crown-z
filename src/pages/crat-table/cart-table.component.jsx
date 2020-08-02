@@ -7,7 +7,6 @@ import {TableRow} from '../../components'
 import CustomeButton from '../../components/custom-button/custom-button.component'
 import { removeAllItems } from '../../redux/cart/cart.ations.js';
 
-
 class CartTable  extends React.Component {
     
     render() {  
@@ -34,7 +33,8 @@ class CartTable  extends React.Component {
                </div>
                </div>
                {
-                   items.map((item , ind)=> (<TableRow key={ind} item={item}  />) )
+                items.length===0?(<div className={styles.empty} >Empty Cart !!</div>):(items.map((item , ind)=> (<TableRow key={ind} item={item}  />)))
+                   
                }
                    
                               
@@ -63,6 +63,7 @@ class CartTable  extends React.Component {
         );
     }
 }
+
 
 const mapStateToProps = createStructuredSelector({
     items:selectItems,

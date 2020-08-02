@@ -21,7 +21,7 @@ const CartDropDown = ({items,history,toggelCart})=>{
         <div className={styles.container} >
             <Scroll height={`350px`}>
             {
-                items.map((item,index)=>(<DropDownItem key={index} item={item} />))
+                items.length===0?(<div className={styles.empty} >Empty Cart !!</div>):(items.map((item,index)=>(<DropDownItem key={index} item={item} />)))
             }
             </Scroll>
             <div className={styles.footer} >
@@ -29,7 +29,7 @@ const CartDropDown = ({items,history,toggelCart})=>{
             </div>
         </div>
         );
-}        
+}             
 const mapStateToProps=createStructuredSelector({
   items:selectItems  
 })
