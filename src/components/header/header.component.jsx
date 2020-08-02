@@ -32,7 +32,7 @@ return (
       <Link className={style.options} to='/cart_table'>
         Check Out
       </Link>
-      <Link className={style.options} to='' >
+      <Link className={style.options}  >
         <CartIcon/>
         
       </Link>

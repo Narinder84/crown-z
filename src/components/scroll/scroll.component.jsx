@@ -3,8 +3,8 @@ import React from 'react'
 import './scroll.style.scss'
 
 
-const Scroll =({children})=>(
-    <div className='scroll' >
+const Scroll =({children,height})=>(
+    <div style = { {height:`${height}`}} className='scroll' >
         {children}
     </div>
 )

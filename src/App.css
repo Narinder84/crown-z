@@ -1,7 +1,15 @@
 body {
   font-family: 'Open Sans Condensed';
-  padding: 5px 40px;
+  padding: 5px 10px;
   
+}
+@media screen and (max-width: 800px){
+  body{
+    padding: 0px;
+  }
+  a{
+    color: black;
+  }
 }
 
 a {

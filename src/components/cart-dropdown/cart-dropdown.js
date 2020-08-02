@@ -19,7 +19,7 @@ const CartDropDown = ({items,history,toggelCart})=>{
 
     return(
         <div className={styles.container} >
-            <Scroll>
+            <Scroll height={`350px`}>
             {
                 items.map((item,index)=>(<DropDownItem key={index} item={item} />))
             }

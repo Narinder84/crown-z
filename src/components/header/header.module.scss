@@ -1,8 +1,7 @@
 
-
 .header {
-  top:0;
-  position: fixed;
+  // top:0;
+  // position: fixed;
   left: 0;
   background-color: whitesmoke;
   color: red;
@@ -15,7 +14,7 @@
   font-size: 1.2em;
   font-weight: bolder;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+  // margin-bottom: 200px;
 
   .logoContainer {
     display: flex;
@@ -47,4 +46,12 @@
 
 .cartDropDown{
   background-color: red;
+}
+
+.sp{
+  margin-left: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+ 
 }
