@@ -17,3 +17,17 @@
 .footer{
     margin-top: 15px;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+   
+    .container{
+        height: 55vh;
+        top: 115px;
+        right: 5px;
+        border: none;
+        width: 370px;
+    }
+    
+  }

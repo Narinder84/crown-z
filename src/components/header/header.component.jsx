@@ -11,38 +11,34 @@ const Header = (props) =>  {
 const {isHidden} = props
 
 return (
-  <div className={style.container} >
+  <div>
     <div className={style.header}>
-    <div className={style.left} >
-    <Link className={style.logoContainer} to='/'>
+      <div className={style.left_side} >
+        <Link className={style.logoContainer} to='/'>
       
-      <Logo className={style.logo} />
-      <span>Crown Cloths Ltd.</span>  
-    </Link>
+          <Logo className={style.logo} />
+          <span>Crown Cloths Ltd.</span>  
+        </Link>
     
-    </div>
+      </div>
     
-    <div className={style.options}>
-      <Link className={style.options} to='/shop'>
-        Shop
-      </Link>
-      <Link className={style.options} to='/signin'>
-        Log In
-      </Link>
-      <Link className={style.options} to='/cart_table'>
-        Check Out
-      </Link>
-      <Link className={style.options}  >
-        <CartIcon/>
+      <div className={style.right_side}>
+        <Link className={style.options_all} to='/shop'>Shop</Link>
+        <Link className={style.options} to='/signin'>Log-In</Link>
+        <Link className={style.options_mobile} to='/signinMobile'>Sign-In</Link>
+        <Link className={style.options_mobile} to='/registerMobile'>Register</Link>
+        <Link className={style.options_all} to='/cart_table'>Check-Out</Link>
+        <Link className={style.options_all} >
+          <CartIcon/>
         
-      </Link>
+        </Link>
       
-    </div>
+      </div>
     
-  </div>
-    {isHidden ? (null):(<div className={style.cartDropDown} >
-      <CartDropDown/>
-    </div>)}
+      </div>
+        {isHidden ? (null):(<div className={style.cartDropDown} >
+        <CartDropDown/>
+      </div>)}
   </div>
 );
 
