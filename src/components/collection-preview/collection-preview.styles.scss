@@ -18,6 +18,10 @@
 
 
 @media screen and (max-width: 600px) {
+  .all{
+    
+    min-height: 100vh;
+  }
   .preview {
     flex-direction: column;
   }
