@@ -47,3 +47,16 @@
   visibility: hidden;
   margin-bottom: 5px;
 }
+
+
+@media screen and (max-width: 600px) {
+ 
+  
+.collection-item {
+  margin-left: 10px;
+  width: 95%;
+  &:hover{
+    width: 95%;
+  }
+}
+}

@@ -26,8 +26,8 @@ const CollectionItem = ({item,addItemToCart}) =>{
   );
 }
 
-const mapDispatchToProps = (dipatch)=>({
-  addItemToCart : (item)=>dipatch(addItemToCart(item)) 
+const mapDispatchToProps = (dispatch)=>({
+  addItemToCart : (item)=>dispatch(addItemToCart(item)) 
 })
 
 export default  connect(null,mapDispatchToProps)( CollectionItem);
