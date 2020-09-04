@@ -26,8 +26,8 @@ return (
       <div className={style.right_side}>
         <Link className={style.options_all} to='/shop'>Shop</Link>
         <Link className={style.options} to='/signin'>Log-In</Link>
-        <Link className={style.options_mobile} to='/signinMobile'>Sign-In</Link>
-        <Link className={style.options_mobile} to='/registerMobile'>Register</Link>
+        <Link className={style.options_mobile} to='/signin_mobile'>Sign-In</Link>
+        <Link className={style.options_mobile} to='/register_mobile'>Register</Link>
         <Link className={style.options_all} to='/cart_table'>Check-Out</Link>
         <Link className={style.options_all} >
           <CartIcon/>

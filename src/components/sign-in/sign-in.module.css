@@ -11,11 +11,12 @@
   width: 30vw;
   padding: 20px;
   background-color: whitesmoke;
-  border: red solid 1px;
+  border: white solid 1px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 }
 .Contaner p {
-  color: #FF8C00;
+  
   font-weight: 700;
   font-size: 1.4em;
   
@@ -42,4 +43,15 @@
 
 .bt{
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+   
+  .Contaner{
+
+      width: 100vw ;
+      box-shadow: none;
+  }
+
+  
 }
