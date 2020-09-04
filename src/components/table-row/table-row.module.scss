@@ -16,7 +16,9 @@
     margin-right: 5px;
   }
 
-
+  .mobile_container{
+    display: none;
+  }
 .data_body{
     
     display: flex;
@@ -52,4 +54,21 @@
   padding-left: 10px;
   padding-right:10px ;
   cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .data_body{
+    width: 97%; 
+    border: black 1px solid;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+  .data_name_im {
+    width: 50%;
+    flex-direction: column;
+  }
+  
 }

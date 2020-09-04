@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 
 
 import {removeItemFromCart,reduceItemFromCart,addItemToCart} from '../../redux/cart/cart.ations'
-import styles from './table-row.module.css';
+import styles from './table-row.module.scss';
 
 const TableRow =({item,reduce,remove,add})=> {
     const {imageUrl,name,price,quantity} =item

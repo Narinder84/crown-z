@@ -4,6 +4,9 @@
     left:5px;
     
   }
+  .con h3{
+      display: none;
+  }
 .container{
     
     height: 350px;
@@ -84,3 +87,39 @@
     font-size: 1.2em;
     font-weight: 700;
 }
+
+
+@media screen and (max-width: 600px) {
+    .con h3{
+        margin: 0 5px 10px 3px;
+        padding: 0 20px 0 20px;
+        display:flex;
+        height: 50px;
+        background-color: orange;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    h3 btn{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        width: 40px;
+        padding: 5px;
+        border-radius: 4px;
+      }
+    
+    .header_body{
+        display: none;
+    }
+    .footer_body{
+        display: none;
+    }
+
+    .container{
+    
+        min-height: 100vh;
+    }
+    
+  }
