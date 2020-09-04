@@ -17,7 +17,8 @@ return (
         <Link className={style.logoContainer} to='/'>
       
           <Logo className={style.logo} />
-          <span>Crown Cloths Ltd.</span>  
+          <span className='ltd' >Crown Cloths Ltd.</span>
+          <p className='cr' >Crown Ltd.</p>  
         </Link>
     
       </div>

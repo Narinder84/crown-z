@@ -15,7 +15,9 @@
   
 }
 .left_side{
-  
+  p{
+    display: none;
+  }
 }
   .logoContainer {
     display: flex;
@@ -52,14 +54,17 @@
       width: 100px;
       display: flex;
       flex-direction: column;
-      
+      span{
+        display: none;
+      }
+      p{
+        display: inline;
+      }
     }
-    .logo{
-      padding-right: 35px;
-    }
+    
     .logoContainer{
       padding-top:10px ;
-      width: 80px;
+      width: 100px;
       display: flex;
       flex-direction: column;
       
